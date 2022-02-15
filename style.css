@@ -1,0 +1,100 @@
+* {
+
+    margin: 0px; 
+    padding: 0px;
+    
+    
+    }
+    body {
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+      
+body {
+    
+    height: 100vh;
+    
+    width: 100vw;
+    
+    background: #4d5db8;
+    
+}
+    
+.container {
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100vw; 
+}
+
+#instagram,
+
+#linkedin,
+
+#github, #facebook {
+
+font-size: 8em;
+
+background-color: #181911; 
+color: #fff;
+
+box-shadow: 2px 2px 2px #c0101080, 10px
+
+1px 12px #068b0d80,
+
+2px 2px 10px #320eff4f, 2px 2px 3px
+
+#d6202080, inset 2px 2px 10px #2311c480,
+
+inset 2px 2px 10px #12e46a80, inset 2px
+
+2px 10px #b110a980,
+
+inset 2px 2px 10px #00000080;
+
+border-radius: 29px;
+
+padding: 11px 19px;
+
+margin: 0 40px;
+
+animation: animate 35 Linear infinite;
+
+text-shadow:rgb(196, 120, 33)
+
+}
+
+#twitter {
+
+    animation-delay: 0.3s;
+    
+}
+ #facebook {
+    
+    animation-delay: 0.7s;
+    
+}
+    
+#github {
+    
+    animation-delay: 0.1s; 
+}
+    
+@keyframes animate {
+    
+    from {
+    
+    filter: hue rotate (Odeg);
+    
+    }
+    
+    to {
+    
+    filter: hue
+    
+    rotate(360deg);
+    }
+    
+}
